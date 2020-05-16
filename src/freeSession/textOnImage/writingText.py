@@ -45,9 +45,9 @@ draw.text((x-(w/2), y), certificateNum,
 
 
 # starting position of the name
-
+name = "akash gupta"
 (x, y) = (1727, 1100)
-userName = "Akash Gupta"
+userName = name.upper()
 nameColor = 'rgb(0, 0, 0)'  # black color
 
 # draw the message on the background
